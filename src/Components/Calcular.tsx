@@ -26,7 +26,7 @@ const Calcular = ({ value1, value2, onCalculate: Calcular }: Props) => {
     };
     return (
         <View style={styles.BotonEnviar}>
-        <Button title="CALCULAR" onPress={calculo} />
+        <Button title="COMPARAR" onPress={calculo} />
       </View>
     );
 }
